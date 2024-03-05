@@ -1,0 +1,25 @@
+{
+  "name": "mrdcl",
+  "displayName": "MRDCL",
+  "description": "Market Research Data Control Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "mrdcl",
+      "aliases": ["Market Research Data Control Language", "mrdcl"],
+      "extensions": [".stp",".rpt",".stpx",".lst"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "mrdcl",
+      "scopeName": "source.mrdcl",
+      "path": "./syntaxes/mrdcl.tmLanguage.json"
+    }]
+  }
+}
